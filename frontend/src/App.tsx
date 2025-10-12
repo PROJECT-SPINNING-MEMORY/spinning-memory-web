@@ -52,7 +52,7 @@ function App() {
             </Routes>
         </main>
         <footer>
-            &copy; 2022 Spinning Memory
+            &copy; 2025 Spinning Memory
         </footer>
      </div>
 

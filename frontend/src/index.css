@@ -198,3 +198,19 @@ input {
     border: 0.1rem #c0c0c0 solid;
     border-radius: 0.5rem;
 }
+
+.fulfillment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fulfillment-table th,
+.fulfillment-table td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.fulfillment-table tr.unshipped {
+  color: #f08000; /* same as CheckoutSteps active color */
+}
